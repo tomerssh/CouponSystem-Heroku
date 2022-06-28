@@ -11,7 +11,7 @@ import app.core.services.login.LoginManager.ClientType;
 import app.core.utils.JwtUtil;
 import app.core.utils.JwtUtil.ClientDetails;
 
-@Component
+// @Component
 @Order(4)
 public class JwtTest implements CommandLineRunner {
 

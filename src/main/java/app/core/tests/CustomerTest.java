@@ -13,7 +13,7 @@ import app.core.services.CustomerService;
 import app.core.services.login.LoginManager;
 import app.core.services.login.LoginManager.ClientType;
 
-@Component
+// @Component
 @Order(3)
 public class CustomerTest implements CommandLineRunner, ApplicationContextAware {
 	private ApplicationContext ctx;

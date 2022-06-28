@@ -16,7 +16,7 @@ import app.core.services.CompanyService;
 import app.core.services.login.LoginManager;
 import app.core.services.login.LoginManager.ClientType;
 
-@Component
+// @Component
 @Order(2)
 public class CompanyTest implements CommandLineRunner, ApplicationContextAware {
 	private ApplicationContext ctx;

@@ -14,7 +14,7 @@ import app.core.services.AdminService;
 import app.core.services.login.LoginManager;
 import app.core.services.login.LoginManager.ClientType;
 
-@Component
+// @Component
 @Order(1)
 public class AdminTest implements CommandLineRunner, ApplicationContextAware {
 	private ApplicationContext ctx;
